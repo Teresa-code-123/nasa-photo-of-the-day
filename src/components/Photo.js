@@ -40,6 +40,7 @@ function Photo() {
           setTitle(photo.data.title);
           setAbout(photo.data.explanation);
           setDate(photo.data.date);
+
           console.log(photo);
         });
     fetchPhoto();
